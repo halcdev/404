@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Path to your .procmailrc file
-PROCMAIL_CONFIG=".procmailrc"
+PROCMAIL_CONFIG="/home/shay/a/ece404u5/Mail/.procmailrc"
 
 # Directory containing your junkMail files
-JUNK_MAIL_DIR=“Mail/404”
+JUNK_MAIL_DIR="/home/shay/a/ece404u5/Mail/404/"
 
 # Loop through each junkMail file
 for i in {1..74}
