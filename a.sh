@@ -13,7 +13,7 @@ do
     FILENAME="junkMail_$(printf "%02d" $i)"
 
     # Execute procmail for each file
-    procmail $PROCMAIL_CONFIG < "$JUNK_MAIL_DIR/$FILENAME"
+    # procmail $PROCMAIL_CONFIG < "$JUNK_MAIL_DIR/$FILENAME"
 
     # Optional: Echo the file name to track progress
     echo "Processed $FILENAME"
